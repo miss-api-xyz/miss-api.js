@@ -1,2 +1,11 @@
-# miss-api.js
-👀 Wrapper for miss-api written in JavaScript. Get a random picture now!
+## How to use?
+
+```js
+const { main: MissAgent } = require("miss-api.js"); //
+const miss = new MissAgent(`User ...`) // API Key. 
+
+miss.get("cat").then(console.log) // return object with data
+```
+
+- Docs - **https://github.com/miss-api-xyz/docs**
+- Site - **https://miss-api.xyz**
