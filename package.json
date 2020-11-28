@@ -1,0 +1,25 @@
+{
+  "name": "miss-api",
+  "version": "2.0.0",
+  "description": "👀 Wrapper for miss-api written in JavaScript. Get a random picture now!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miss-api-xyz/miss.api.git"
+  },
+  "keywords": [
+    "miss-api",
+    "API",
+    "random",
+    "image"
+  ],
+  "author": "miss-api-team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miss-api-xyz/miss.api/issues"
+  },
+  "homepage": "https://github.com/miss-api-xyz/miss.api#readme"
+}
