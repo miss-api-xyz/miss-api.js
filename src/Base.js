@@ -25,6 +25,7 @@ class MissAgent {
     }
 
     get = async function(endpoint) {
+        if(!endpoint) throw new Error("Specify an available endpoint. Documentation: https://github.com/miss-api-xyz/docs-tes")
         return this.request(endpoint, {
             headers: {
                 "Content-Type": "application/json",
