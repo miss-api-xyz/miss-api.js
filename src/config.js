@@ -1,4 +1,4 @@
 module.exports.config = {
-    baseURL: "https://miss-api.xyz",
+    baseURL: "http://miss-api.xyz",
     APIversion: "v2",
 }
