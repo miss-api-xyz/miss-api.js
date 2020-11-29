@@ -1,4 +1,4 @@
-const https = require("https")
+const http = require("http")
 const config = require("./config").config;
 
 class MissAgent {
@@ -10,7 +10,7 @@ class MissAgent {
 
         this.request = function(endpoint, options){
             return new Promise((resolve, reject) => {
-                https.get(`${config.baseURL}/api/${config.APIversion}/${endpoint}`, options, (res) => {
+                http.get(`${config.baseURL}/api/${config.APIversion}/${endpoint}`, options, (res) => {
                     let body = " ";
                     res.on('data', function(chunk){
                         body += chunk;
