@@ -17,4 +17,4 @@ miss.get("cat").then(console.log) // return object with data
 ```
 
 - 📚 Docs - **https://github.com/miss-api-xyz/docs**
-- 🔍 Site - **https://miss-api.xyz**
+- 🔍 Site - **https://miss-api.ml**
