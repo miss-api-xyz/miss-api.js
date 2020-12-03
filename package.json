@@ -1,6 +1,6 @@
 {
   "name": "miss-api.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "👀 Wrapper for miss-api written in JavaScript. Get a random picture now!",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miss-api-xyz/miss.api.git"
+    "url": "git+https://github.com/miss-api-xyz/miss-api.js.git"
   },
   "keywords": [
     "miss-api",
