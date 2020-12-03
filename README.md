@@ -11,7 +11,7 @@ $ yarn add miss-api.js
 
 ```js
 const { main: MissAgent } = require("miss-api.js"); //
-const miss = new MissAgent(`User ...`) // API Key. 
+const miss = new MissAgent("User ...") // API Key. 
 
 miss.get("cat").then(console.log) // return object with data
 ```
